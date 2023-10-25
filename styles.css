@@ -23,7 +23,9 @@
     margin: 15px;
  }
 
-
+.colorBox{
+    border: whitesmoke;
+}
 
  input{
     margin-top: 10px;
