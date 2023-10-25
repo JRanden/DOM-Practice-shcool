@@ -1,0 +1,31 @@
+#sliderRed{
+   accent-color: Red;
+}
+#sliderGreen{
+    accent-color: Green;
+ }
+ #sliderBlue{
+    accent-color: Blue;
+ }
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    display: inline-block;
+
+}
+
+ body{
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+ }
+
+
+
+ input{
+    margin-top: 10px;
+ }
+

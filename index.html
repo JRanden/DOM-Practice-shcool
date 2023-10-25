@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h2 id ="outputField">Perfect number checker</h2>
+    
+        <input type="number" id="inputNumber" placeholder="Check your number">
+    
+    <button id="buttonCheck">
+        Check Number
+    </button>
+    <button id="buttonRandom">
+        Random Number
+    </button>
+
+    <br>
+
+    <input type="color" class="colorBox" onchange="selectInput()">
+
+    <h4> Red</h4>
+    <input type="range" min="1" max="255" id="sliderRed">
+
+    <h4>Green</h4>
+    <input type="range" min="1" max="255" id="sliderGreen">
+
+    <h4>Blue</h4>
+    <input type="range" min="1" max="255" id="sliderBlue">
+
+    <h4>Write Color</h4>
+    <input type="text" id="inputColor">
+    <button id="buttonColor">
+        Set color
+    </button>
+    <button id="buttonRandomColor">
+        Random Color
+    </button>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
